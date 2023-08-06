@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Andarilhos.</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+
+    <h1 align="center"><img src="loggo.png" alt="Logo da andarilhos"></h1>
+    <table class="menu">
+    <h2 align="center">Contato</h2> 
+        <tr class="opcao">
+            <td> <a href="index.html">Home</a></td>
+            <td><a href="destino.html">Destinos</a></td>
+            <td><a href="promocao.html">Promoções</a></td>
+            <td><a href="contato.html">Contato</a></td>
+        </tr>
+    </table>
+    <hr>
+
+    <form>
+        <h4>Nome:</h4>
+        <input type="text" style="width: 400px;" placeholder="Digite seu nome"><br>
+        <h4>E-mail</h4>
+        <input type="email" placeholder="seuemail@email.com"><br>
+        <h4>Telefone:</h4>
+        <input type="tel" placeholder="(00) 00000-0000"><br>
+        <h4>Mensagem:</h4>
+        <textarea style="width: 400px;" cols="68" rows="10" id="mensagem" class="input-padrao" required></textarea><br><br>
+
+        
+
+        
+            <legend>Como prefere o nosso contato?</legend><br>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label><br>
+            
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label><br>
+            
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label><br><br>
+
+            <input type="submit" value="Enviar">
+            
+        
+    </form>
+
+    <footer align="center">
+        <img src="loggo.png" width="100px" alt="Logo da Andarilhos">
+       <p class="copyright">&copy;Copyright Andarilhos - 2023</p>
+</footer>
+
+    
+</body>
+</html>
